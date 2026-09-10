@@ -188,6 +188,35 @@ footer.pg a{color:var(--muted)}
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
   gtag('config','G-JJ68Q4V2GY',{anonymize_ip:true});
+
+  /* ATRIBUICAO-V1 */
+  function repassarOrigem(){
+    var p = new URLSearchParams(location.search);
+    var carrega = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term'];
+    var leva = new URLSearchParams();
+    carrega.forEach(function(k){ if(p.get(k)) leva.set(k, p.get(k)); });
+    if(!leva.toString()) return;
+    document.querySelectorAll('a[href]').forEach(function(a){
+      var h = a.getAttribute('href') || '';
+      if (h.charAt(0) === '#' || /^(mailto:|tel:)/i.test(h)) return;
+      try {
+        var u = new URL(a.href, location.href);
+        var interno = (u.origin === location.origin);
+        var checkout = a.hasAttribute('data-cta') || /kiwify/i.test(u.hostname);
+        if (!interno && !checkout) return;
+        leva.forEach(function(v,k){ u.searchParams.set(k,v); });
+        a.href = u.toString();
+      } catch(e) {}
+    });
+  }
+  /* o bloco de medicao roda no <head>, antes de existir <body>: sem esperar o
+     DOM, o querySelectorAll nao acha link nenhum e a origem se perde. */
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', repassarOrigem);
+  } else {
+    repassarOrigem();
+  }
+
 </script>
 </head>
 <body>
