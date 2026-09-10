@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Gerado por gerar_sitemap.py a partir das paginas em dist/site.
+     Nao editar a mao: rode o gerador de novo. O endereco vem de
+     SITE + BASE, em _base.py. -->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado</loc><lastmod>2026-09-09</lastmod><priority>1.0</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/documentos/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/lei-e-prazos/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/primeiros-passos/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/seguro-auto/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/seguro-de-vida/</loc><lastmod>2026-09-09</lastmod><priority>0.9</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/materiais/caso-organizado/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/materiais/pedido-de-documentos/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/negativa/documentos/relatorio-de-regulacao/</loc><lastmod>2026-09-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/perguntas-frequentes/</loc><lastmod>2026-09-09</lastmod><priority>0.7</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/sobre/amanda-arruda-gurgel/</loc><lastmod>2026-09-09</lastmod><priority>0.6</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/fontes/</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/metodologia-editorial/</loc><lastmod>2026-09-09</lastmod><priority>0.5</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/politica-de-atualizacao/</loc><lastmod>2026-09-09</lastmod><priority>0.4</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/politica-de-privacidade/</loc><lastmod>2026-09-09</lastmod><priority>0.3</priority></url>
+  <url><loc>https://amandaarrudagurgel.github.io/seguro-negado/termos-de-uso/</loc><lastmod>2026-09-09</lastmod><priority>0.3</priority></url>
+</urlset>

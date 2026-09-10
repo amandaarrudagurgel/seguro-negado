@@ -1,0 +1,17 @@
+# Seguro Negado — robots.txt
+# ATENÇÃO: os arquivos pagos NÃO são bloqueados aqui de propósito.
+# Regra oficial do Google: "If a page is disallowed from crawling through the robots.txt file,
+# then any information about indexing or serving rules will not be found and will therefore be
+# ignored." Bloquear no robots.txt impediria o Google de LER o X-Robots-Tag: noindex.
+# O controle de acesso real é autenticação/URL assinada (ver .htaccess).
+
+User-agent: *
+Allow: /
+
+# rotas operacionais, sem valor de busca
+Disallow: /checkout
+Disallow: /obrigado
+Disallow: /acesso/
+Disallow: /*?utm_
+
+Sitemap: https://SEU-DOMINIO.com.br/sitemap.xml
